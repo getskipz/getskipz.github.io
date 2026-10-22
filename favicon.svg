@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Skipz"><title>Skipz</title><rect width="128" height="128" rx="28" fill="#ffd23f"/><svg x="3.8400000000000034" y="15.872952978056425" width="120.32" height="100.25409404388715" viewBox="3 -52.4 319 265.8" style="color:#111">
+  
+  <defs>
+    <mask id="cut" maskUnits="userSpaceOnUse" x="-10" y="0" width="230" height="140">
+      <rect x="-10" y="0" width="230" height="140" fill="#fff"/>
+      <g stroke="#000" stroke-width="3" stroke-linecap="round"><line x1="91" y1="59" x2="86.8" y2="63.2"/><line x1="98" y1="64.5" x2="93.8" y2="68.7"/><line x1="106" y1="69.5" x2="101.8" y2="73.7"/><line x1="114.5" y1="74" x2="110.3" y2="78.2"/><line x1="123" y1="78" x2="118.8" y2="82.2"/></g>
+    </mask>
+  </defs>
+  <g fill="currentColor">
+    <g transform="rotate(27 232 150) scale(1.16 1)">
+      <path mask="url(#cut)" d="M27 132.5 C21 114 22 90 29 68 C31.5 59 31 50 36 43 C40.5 37 50 36.5 60 37.5 L78 40.5 C84 41.5 87 45 88 50 C96 60 110 70 130 78 C156 88 186 90 197 106 C204 116 202 127 192 132.5 Z"/>
+      <path d="M18 146 C18 139.5 22 135.5 28 135.5 L176 135.5 C190 135.5 199 140.5 199.5 147 C200 153 196 157.5 190 157.5 L28 157.5 C21 157.5 18 152 18 146 Z"/>
+      <g fill="none" stroke="currentColor" stroke-linecap="round"><path d="M97 51 C106 46 114 48 117 55" stroke-width="2.6"/><path d="M97 51 C102 56 103 62 100 68" stroke-width="2.6"/></g>
+    </g>
+    <g data-speed="1">
+      <circle cx="196" cy="196" r="3"/>
+      <circle cx="208" cy="188" r="2.6"/>
+      <circle cx="184" cy="205" r="2.4"/>
+    </g>
+  </g>
+</svg></svg>

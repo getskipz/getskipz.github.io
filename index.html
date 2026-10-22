@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Skipz: find the sponsor, skip it if you want</title>
+<meta name="description" content="Skipz finds the sponsor part of a YouTube video, names the brand, and asks before you skip it. Free, open source, nothing leaves your computer.">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="wrap top">
+  <a class="brand" href="./"><img src="favicon.svg" alt="" width="32" height="32">skipz</a>
+  <nav><a href="#how">How it works</a><a href="#privacy">Privacy</a><a href="https://github.com/getskipz/skipz">GitHub</a></nav>
+</header>
+
+<main>
+<section class="wrap hero">
+  <p class="eyebrow">Free and open source</p>
+  <h1>Find the sponsor.<br>Skip it if you want.</h1>
+  <p class="lead">Skipz marks the sponsor part of a YouTube video, names the brand, and asks before you skip it. It works on videos nobody has marked yet, and nothing leaves your computer.</p>
+  <p class="cta">
+    <a class="btn primary" href="https://github.com/getskipz/skipz">Get it on GitHub</a>
+    <a class="btn" href="#install">Browsers</a>
+  </p>
+  <div class="demo" role="img" aria-label="A video timeline with a yellow mark over the sponsor part and a question: Skip it or keep watching">
+    <div class="screen"><span class="chipq"><b>Brightwave</b> sponsor · 1:10 <i class="go">Skip it</i><i class="stay">Keep watching</i></span></div>
+    <div class="bar"><span class="m a"></span><span class="m b"></span></div>
+  </div>
+</section>
+
+<section class="wrap" id="how">
+  <h2>How it decides</h2>
+  <p class="sub">Skipz marks a sponsor only when it is sure enough. It combines four signs, all from the page you already have open.</p>
+  <div class="grid">
+    <article><h3>The paid label</h3><p>YouTube's own "includes paid promotion" badge.</p></article>
+    <article><h3>The description</h3><p>Sponsor lines, links and deal codes.</p></article>
+    <article><h3>The chapters</h3><p>A chapter named after the brand.</p></article>
+    <article><h3>The captions</h3><p>Spoken ad reads, like "this video is sponsored by", with their times.</p></article>
+  </div>
+  <p class="sub small">It starts the mark two seconds early and ends it three seconds late, then asks. It never skips on its own until it has earned that.</p>
+</section>
+
+<section class="wrap" id="privacy">
+  <h2>Private by design</h2>
+  <ul class="ticks">
+    <li>No account, no key, no server.</li>
+    <li>It reads the video page you have open, in your browser, and sends nothing anywhere.</li>
+    <li>It asks for three things: storage, scripting, and access to YouTube. Nothing else.</li>
+    <li>The code is open. You can read every rule.</li>
+  </ul>
+  <p><a class="link" href="privacy.html">Read the privacy page</a></p>
+</section>
+
+<section class="wrap" id="install">
+  <h2>Browsers</h2>
+  <div class="grid three">
+    <article><h3>Chrome and friends</h3><p>Chrome, Edge, Brave, Opera, Vivaldi. Web Store listing coming soon. From source today.</p></article>
+    <article><h3>Edge on Android</h3><p>Same extension, through Microsoft Edge Add-ons. Coming soon.</p></article>
+    <article><h3>Firefox</h3><p>Desktop and Android. Add-ons listing coming soon. The build passes Mozilla's own checker.</p></article>
+  </div>
+  <p class="sub small">Chrome on Android does not support extensions at all.</p>
+</section>
+
+<section class="wrap help">
+  <h2>Help by testing</h2>
+  <p class="sub">A test suite cannot open YouTube on your phone. You can. Three minutes on your own device improves Skipz for everyone, and you get credit. Nobody has run it on a real phone yet, so the first mobile testers matter most.</p>
+  <p class="cta"><a class="btn primary" href="https://github.com/getskipz/skipz/blob/main/docs/TESTING.md">Test it by hand</a></p>
+</section>
+</main>
+
+<footer class="wrap foot">
+  <p>Skipz is run by one person for now: Yx. Licensed under <a href="https://github.com/getskipz/skipz/blob/main/LICENSE">Apache 2.0</a>. Not affiliated with or endorsed by YouTube or Google.</p>
+</footer>
+</body>
+</html>

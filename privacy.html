@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Skipz privacy</title>
+<meta name="description" content="Skipz sends nothing anywhere. What it reads, what it keeps, and the permissions it asks for.">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="wrap top">
+  <a class="brand" href="./"><img src="favicon.svg" alt="" width="32" height="32">skipz</a>
+  <nav><a href="./#how">How it works</a><a href="https://github.com/getskipz/skipz">GitHub</a></nav>
+</header>
+<main class="wrap doc">
+  <h1>Privacy</h1>
+  <p class="lead">Skipz sends nothing anywhere. It has no server, no account, no analytics and no tracking. It does not ask for a key.</p>
+
+  <h2>What it reads</h2>
+  <p>On a YouTube video page only: the paid-promotion label, the description, the chapters and the video's own captions. It reads them in your browser to decide whether to mark a sponsor.</p>
+
+  <h2>What it keeps</h2>
+  <p>Your mode (Ask me, Skip by itself, Off) and three counters (looked at, marked, skipped), in your browser's own storage. Remove the extension and they are gone.</p>
+
+  <h2>Permissions, and why</h2>
+  <table>
+    <tr><th>Permission</th><th>Why</th></tr>
+    <tr><td><code>storage</code></td><td>Keeps your mode and counters.</td></tr>
+    <tr><td><code>scripting</code></td><td>Reads the video page you have open.</td></tr>
+    <tr><td><code>https://www.youtube.com/*</code> and <code>https://m.youtube.com/*</code></td><td>The only sites Skipz runs on. The second is YouTube's phone site.</td></tr>
+  </table>
+  <p>Skipz does not run on any other site and asks for no other site.</p>
+
+  <h2>If this ever changes</h2>
+  <p>A later version may offer an optional, opt-in shared list of sponsor findings. It would show its own screen that says exactly what is shared, and it would stay off until you agree. This page would change first.</p>
+
+  <h2>Contact</h2>
+  <p>Skipz is run by one person: Yx. Questions about privacy: <a href="mailto:mryaxx@gmail.com">mryaxx@gmail.com</a>. The code is open at <a href="https://github.com/getskipz/skipz">github.com/getskipz/skipz</a>.</p>
+  <p class="sub small">Skipz is not affiliated with or endorsed by YouTube or Google. Last updated 22 October 2026.</p>
+</main>
+<footer class="wrap foot"><p><a href="./">Back to Skipz</a></p></footer>
+</body>
+</html>
